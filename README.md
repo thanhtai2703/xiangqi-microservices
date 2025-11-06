@@ -1,3 +1,4 @@
+# Original repository: https://github.com/012e/xiangqi
 # XIANGQI
 
 - Bàn cờ: <a href="https://github.com/012e/react-xiangqiboard">React-xiangqiboard</a>
