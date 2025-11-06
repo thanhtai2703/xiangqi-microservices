@@ -1,0 +1,23 @@
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    oauth:
+      client-id: 3WDtuCDz2foYFJAHjKc2FxTTJmplDfL6
+      use-pkce-with-authorization-code-grant: true
+      additionalQueryStringParams:
+        audience: "xiangqi-backend"
+      client-secret: N5gWWldmU2tWu-d5WjSyneXhQgLITYKkS4xGo9TJLUq2xCFEJphQQvAibVaGeQyg
+    oauth2-redirect-url: "http://localhost:8080/swagger-ui/oauth2-redirect.html"
+  oAuthFlow:
+    authorizationUrl: https://dev-l5aemj1026u4dqia.us.auth0.com/authorize
+    tokenUrl: https://dev-l5aemj1026u4dqia.us.auth0.com/oauth/token
+  paths-to-match: /**
+  show-login-endpoint: true
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-l5aemj1026u4dqia.us.auth0.com/
